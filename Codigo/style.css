@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', 'Inter' sans-serif;
+
+}
+    
+
+.background-astethic {
+    background: rgba(3,0,12,0.7) url("/Image/Banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    
+}
+
+
+.logo img{
+    
+    width: 57px;
+    height: 59px;
+    align-items: center;
+    margin-right: 2rem;
+    padding: auto;
+    color: rgb(250, 0, 0);
+ 
+    
+    
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+
+    width: 1700px;
+    height: 127px;
+    border-radius: 5px;
+    opacity: 0.7;
+    background: #F7F7F7;
+    gap: 18rem;
+    font-size: 17px;
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+nav li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center ;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.esquerdo li :hover{
+    color: #FF0000;
+    transition: 0.1s all;
+}  
+
+.direita li :hover{
+    color: #FF0000;
+    transition: 0.1s all;
+}
+
+.esquerdo {
+margin-left: 10rem;
+display: flex;
+gap: 80px;
+color: #0F0F0F;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.esquerdo ul {
+    color: red;
+}
+
+.direita {
+margin-left: 14rem;
+display: flex;
+gap: 80px;
+color: #0F0F0F;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.shop {
+    display: flex;
+    font-size: 16px;
+    width: 4%;
+    height: 10%;
+    margin-top: 56px;
+    font-weight: 500;
+    gap: 10px;
+
+}
+
+.shop img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    
+}
+
+
+
+
+.logo {
+margin-top: 38px;
+width: 57px;
+height: 59px;
+flex-shrink: 0;
+}
+
+
+
+nav a{
+color: #0F0F0F;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.nome {
+display: flex;
+gap: 12px;
+align-items: center;
+padding-right: 73%;
+padding-bottom: 15px;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+
+
+}
+
+.myducati {
+display: flex;
+gap: 5px;
+align-items: center;
+padding-bottom: 15px;
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+
+.model-text-container {
+    margin-left: 69%;
+    margin-top: 260px ;
+}
+
+.model-text-container h2 {
+color: #FFF;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.model-text-container h1 {
+color: #FFF;
+font-family: Roboto;
+font-size: 76px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 85px;
+}
+
+.button-contact {
+
+    margin-left: 1508px;
+}
+
+.button-contact button {
+    color: #FFF;
+    
+    width: 192px;
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: #F00;
+    cursor: pointer;
+}
+
+.banner-loja {
+border: 1px solid #000;
+background: url(/Image/bg-ducati.png), lightgray 50%;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background-color: #646262;
+max-width: 100%;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-position: center;
+background-size: cover;
+
+}
+
+.flex-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 13rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+}
+
+.flex-box {
+width: 237px;
+height: 322px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 0px solid #F00;
+background: #FFFDFD;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.flex-box img {
+width: 130px;
+height: 148px;
+flex-shrink: 0;
+margin-left: 52px;
+margin-top: 15px;
+}
+
+.flex-box p {
+color: #000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30px;
+margin-right: 41px;
+margin-top: 10px;
+margin-bottom: 14px;
+}
+
+.flex-box span {
+color: #000;
+text-align: right;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 40px;
+margin-right: 116px;
+}
+
+.flex-box button {
+width: 173px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 10px;
+border-color: #F00;
+background: #F00;
+color: white;
+margin-left: 32px;
+margin-right: 32px;
+margin-top: 17px;
+color: #FFF;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+
+.footer-container {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.logo-duca {
+    margin-left:258px;
+    max-width: 100%;
+    max-height: 100;
+}
+
+.logo-duca p {
+
+color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+margin-left: 20px;
+margin-bottom: 5px;
+
+
+}
+
+.logo-duca img {
+width: 60px;
+height: 64.262px;
+flex-shrink: 0;
+
+}
+
+.logo-br {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 64rem;
+}
+
+.my-duca {
+padding-left: 50px;
+align-items: center;
+display: flex;
+gap: 5px;
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+    
+}
+
+
+.logo-br img {
+margin-left: 4px;
+width: 37px;
+height: 28.446px;
+flex-shrink: 0;
+}
+
+.logo-br span {
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.my-duca span {
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.my-duca img {
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+
+}
+
+
